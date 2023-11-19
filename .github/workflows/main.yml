@@ -3,7 +3,26 @@ name: Java CI
 on: [push, pull_request]
 
 jobs:
+  setup_node:
+    runs-on: ubuntu-latest
+    outputs:
+      cache-key: ${{ steps.cache-key.outputs.key }}
+
+    steps:
+      - name: Check out code
+        uses: actions/checkout@v2
+
+      - name: Set up Node.js 16
+        uses: actions/setup-node@v2
+        with:
+          node-version: '16'
+
+      - name: Cache node modules
+        id: cache-key
+        run: echo "::set-output name=key::$(echo \"Node.js\")-$(echo ${{ hashFiles('**/package-lock.json') }})"
+
   build:
+    needs: setup_node
     runs-on: ubuntu-latest
 
     container: 
@@ -28,7 +47,7 @@ jobs:
       run: ./run.sh compile
 
   build_test:
-    needs: build
+    needs: [setup_node, build]
     runs-on: ubuntu-latest
 
     container: 
@@ -47,7 +66,7 @@ jobs:
       run: ./run.sh compileTests
 
   test:
-    needs: build_test
+    needs: [setup_node, build_test]
     runs-on: ubuntu-latest
 
     container: 
