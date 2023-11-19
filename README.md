@@ -1,7 +1,5 @@
 # 2022-SB1-GA-GYTMY
-[![build](https://github.com/mathusanMe/Amaze-Voice-Lab/actions/workflows/main.yml/badge.svg)](https://github.com/mathusanMe/Amaze-Voice-Lab/actions/workflows/main.yml)
-[![build_test](https://github.com/mathusanMe/Amaze-Voice-Lab/actions/workflows/main.yml/badge.svg)](https://github.com/mathusanMe/Amaze-Voice-Lab/actions/workflows/main.yml)
-[![test](https://github.com/mathusanMe/Amaze-Voice-Lab/actions/workflows/main.yml/badge.svg)](https://github.com/mathusanMe/Amaze-Voice-Lab/actions/workflows/main.yml)
+[![Java CI](https://github.com/mathusanMe/Amaze-Voice-Lab/actions/workflows/main.yml/badge.svg)](https://github.com/mathusanMe/Amaze-Voice-Lab/actions/workflows/main.yml)
 - [2022-SB1-GA-GYTMY](#2022-sb1-ga-gytmy)
   - [Project: `Voice-controlled movement of characters`](#project-voice-controlled-movement-of-characters)
   - [Assigned professor](#assigned-professor)
