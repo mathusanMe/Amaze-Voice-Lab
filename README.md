@@ -12,13 +12,16 @@
   - [How to install the dependencies](#how-to-install-the-dependencies)
   - [How to run the game](#how-to-run-the-game)
 
-This project was realized by GYTMY for the unit `Projet de programmation (PI4)` during Year 2 Second Semester of `Double Licence Mathématiques-Informatique` (2022-2023).
+This project was realized by GYTMY for the unit `Projet de programmation (PI4)` during Year 2 Second Semester of `Double Licence Mathématiques-Informatique` (2022-2023) as a research project.
 
 ## Project: `Voice-controlled movement of characters`
 
-## Assigned professor
+## Assigned Researcher/Professor
 
 Sami Boutamine (<sami.boutamine@utc.fr>)
+
+## Project Context
+Under the guidance of assigned researcher Professor Sami Boutamine, the project aligns with current academic research trends, emphasizing the practical application of theoretical concepts in computer science and mathematics. The project's development within a three-month timeframe demonstrates the ability to deliver sophisticated technological solutions in a condensed period, a hallmark of agile and effective research and development teams.
 
 ## Students
 
