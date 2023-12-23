@@ -53,7 +53,7 @@ You can also choose the `width` and the `height` of the maze.
 | :--------------------------------------------------------: | :------------------------------------------------------: | :---------------------------------------------------------------------------------: |
 | ![Image Blackout Mode Light](images/BlackoutLight.png) | ![Image Blackout Mode Dark](images/BlackoutDark.png) | ![Image Blackout Mode Dark with player particles](images/BlackoutDarkParticles.png) |
 
-A fun single-player mode where your memory skills will comme in handy to get yourself through the darkness.
+A fun single-player mode where your memory skills will come in handy to get yourself through the darkness.
 
 There are 3 difficulties available : `EASY`, `NORMAL` and `HARD`.
 
